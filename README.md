@@ -196,7 +196,7 @@ function foo() {
 Meanwhile, function expressions define a function with variable assignment:
 
 ```javascript
-var variableName = function bar() {
+var variableName = function() {
   return 'bar'
 }
 ```
@@ -255,7 +255,7 @@ addTwo = function(num) {
 }
 ```
 
-Why would you ever want to use function expression syntax? There are a few benefits, but for now stick with declarations.
+Why would you ever want to use function declaration syntax? There are a few benefits, but for now stick with expressions.
 
 ## Exercise
 
