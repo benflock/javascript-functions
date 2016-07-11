@@ -1,32 +1,32 @@
-// before hositing
+// // before hoisting
 
-test();
+// test();
 
-var test = function() {
-  return 'test';
-};
-
-
-test2();
-
-function test2() {
-  return 'test';
-}
+// var test = function() {
+//   return 'test';
+// };
 
 
+// test2();
 
-// after hoisting
-
-var test = undefined;
-
-function test2() {
-  return 'test';
-}
+// function test2() {
+//   return 'test';
+// }
 
 
-test()
-test2();
 
-test = function() {
-  return test;
-}
+// // after hoisting
+
+// var test = undefined;
+
+// function test2() {
+//   return 'test';
+// }
+
+
+// test()
+// test2();
+
+// test = function() {
+//   return test;
+// }
